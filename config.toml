@@ -18,13 +18,12 @@ style = "github-dark"
   keywords = "blog,developer,personal"
   avatarurl = ""
   gravatar = "alexandruandrei659.aa@gmail.com"
-
   favicon_32 = "/img/favicon-32x32.png"
   favicon_16 = "/img/favicon-16x16.png"
 
   since = 2023
 
-  enableTwemoji = true
+  enableTwemoji = false
 
   colorScheme = "auto"
   hidecolorschemetoggle = false
