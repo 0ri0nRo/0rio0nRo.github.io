@@ -13,10 +13,10 @@ style = "github-dark"
 
 [params]
   author = "Colacel Alexandru Andrei"
-  info = "wooo"
+  info = "I would also write the shopping list in Latex"
   description = "Colacel's personal website"
   keywords = "blog,developer,personal"
-  avatarurl = "/Users/alex/Desktop/0rio0nRo.github.io/themes/hugo-coder/images/Globe_High.jpg"
+  avatarurl = ""
   gravatar = "alexandruandrei659.aa@gmail.com"
 
   favicon_32 = "/img/favicon-32x32.png"
