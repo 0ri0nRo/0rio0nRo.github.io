@@ -12,11 +12,11 @@ disqusShortname = "yourdiscussshortname"
 style = "github-dark"
 
 [params]
-  author = "John Doe"
-  info = "Full Stack DevOps and Magician"
+  author = "Colacel Alexandru Andrei"
+  info = "wooooo"
   description = "John Doe's personal website"
   keywords = "blog,developer,personal"
-  avatarurl = "images/avatar.jpg"
+  avatarurl = "images/Globe_High.png"
   #gravatar = "john.doe@example.com"
 
   favicon_32 = "/img/favicon-32x32.png"
