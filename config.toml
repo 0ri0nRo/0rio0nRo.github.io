@@ -1,165 +1,198 @@
-baseURL = "http://www.example.com"
-title = "Alexandru's portfolio "
-theme = "hugo-coder"
-languageCode = "en"
-defaultContentLanguage = "en"
-paginate = 20
-enableEmoji = true
-# Enable Disqus comments
-# disqusShortname = "yourdiscussshortname"
+baseURL = "https://example.com"
+title   = "Colacel Alexandru Andrei"
+languageCode = "en-us"
+theme = "hello-friend-ng"
 
-[markup.highlight]
-style = "github-dark"
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
 
-[params]
-author = "Colacel Alexandru Andrei"
-# license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
-description = "Alexandru's personal website"
-keywords = "blog,developer,personal"
-info = ["Opsss", ""]
-avatarURL = "images/Globe_High.jpg"
-# gravatar = "images/Globe_High.jpg"
-dateFormat = "January 2, 2006"
-since = 2023
-# Git Commit in Footer, uncomment the line below to enable it
-commit = "https://github.com/0ri0nRo"
-# Right To Left, shift content direction for languagues such as Arabic
-rtl = false
-# Specify light/dark colorscheme
-# Supported values:
-# "auto" (use preference set by browser)
-# "dark" (dark background, light foreground)
-# "light" (light background, dark foreground) (default)
-colorScheme = "auto"
-# Hide the toggle button, along with the associated vertical divider
-hideColorSchemeToggle = false
-# Series see also post count
-maxSeeAlsoItems = 5
-# Custom CSS
-customCSS = []
-# Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
-customSCSS = []
+paginate  = 10
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
-# Custom JS
-customJS = []
+# googleAnalytics = ""
+# disqusShortname = ""
 
-# Custom remote JS files
-customRemoteJS = []
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
 
-# If you want to use fathom(https://usefathom.com) for analytics, add this section
-# [params.fathomAnalytics]
-# siteID = "ABCDE"
-# serverURL = "analytics.example.com" # Default value is cdn.usefathom.com, overwrite this if you are self-hosting
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
 
-# If you want to use plausible(https://plausible.io) for analytics, add this section
-# [params.plausibleAnalytics]
-# domain = "example.com"
-# serverURL = "analytics.example.com" # Default value is plausible.io, overwrite this if you are self-hosting or using a custom domain
-# outboundLinksTracking = true
-# fileDownloadsTracking = true
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
 
-# If you want to use goatcounter(https://goatcounter.com) for analytics, add this section
-# [params.goatCounter]
-# code = "code"
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
 
-# If you want to use Cloudflare Web Analytics(https://cloudflare.com) for analytics, add this section
-# [params.cloudflare]
-# token = "token"
+[author]
+  name = "Colacel Alexandru Andrei"
 
-# If you want to use Matomo(https://matomo.org) for analytics, add this section
-# [params.matomo]
-# siteID = "ABCDE" # Default value is "1", overwrite this if you are cloud-hosting
-# serverURL = "analytics.example.com" # For cloud-hosting, use provided URL, e.g. example.matomo.cloud
-
-# If you want to use Google Tag Manager(https://analytics.google.com/) for analytics, add this section
-# [params.googleTagManager]
-# id = "gid"
-
-# If you want to use Yandex Metrika(https://metrika.yandex.ru) for analytics, add this section
-# [params.yandexMetrika]
-# id = "gid"
-
-# If you want to use Application Insights(https://azure.com/) for analytics, add this section
-# [params.applicationInsights]
-# connectionString = "connectionString"
-
-# If you want to use microanalytics.io for analytics, add this section
-# [params.microAnalytics]
-# id = "ABCDE"
-# dnt = "false" # respect DNT tracker, "true" by default
-
-# If you want to use Pirsch(https://pirsch.io) for analytics, add this section
-# [params.pirsch]
-# code = "ABCDE"
-
-# If you want to implement a Content-Security-Policy, add this section
-# [params.csp]
-# childsrc = ["'self'"]
-# fontsrc = ["'self'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
-# formaction = ["'self'"]
-# framesrc = ["'self'", "https://www.youtube.com"]
-# imgsrc = ["'self'"]
-# objectsrc = ["'none'"]
-# stylesrc = [
-#   "'self'",
-#   "'unsafe-inline'",
-#   "https://fonts.googleapis.com/",
-#   "https://cdn.jsdelivr.net/",
-# ]
-# scriptsrc = [
-#   "'self'",
-#   "'unsafe-inline'",
-#   "https://www.google-analytics.com",
-#   "https://cdn.jsdelivr.net/",
-# ]
-# prefetchsrc = ["'self'"]
-# # connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
-# connectsrc = ["'self'", "https://www.google-analytics.com"]
+[blackfriday]
+  hrefTargetBlank = true
 
 [taxonomies]
-category = "categories"
-series = "series"
-tag = "tags"
-author = "authors"
+  tag      = "tags"
+  category = "categories"
+  series   = "series"
 
-[[params.social]]
-name = "Github"
-icon = "fa fa-2x fa-github"
-weight = 1
-url = "https://github.com/0ri0nRo/"
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
 
-[[params.social]]
-name = "Twitter"
-icon = "fa fa-2x fa-twitter"
-weight = 3
-url = "https://twitter.com/real_al3x/"
+  # Metadata mostly used in document's head
+  # 
+  description = "Nice theme for homepages and blogs"
+  keywords = ""
+  images = [""]
 
-[[params.social]]
-name = "LinkedIn"
-icon = "fa fa-2x fa-linkedin"
-weight = 4
-url = "https://www.linkedin.com/in/alexandru-andrei-colacel/"
+  # Home subtitle of the index page.
+  #
+  homeSubtitle = "Hello Friend NG"
 
+  # Set a background for the homepage
+  # backgroundImage = "assets/images/background.jpg"
 
-[languages.en]
-languageName = ":uk:"
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  #
+  # gitUrl = ""
 
-[[languages.en.menu.main]]
-name = "About"
-weight = 1
-url = "about/"
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  #
+  disableReadOtherPosts = false
 
-[[languages.en.menu.main]]
-name = "Blog"
-weight = 2
-url = "posts/"
+  # Enable theme toggle
+  # 
+  # This options enables the theme toggle for the theme. 
+  # Per default, this option is off. 
+  # The theme is respecting the prefers-color-scheme of the operating systeme. 
+  # With this option on, the page user is able to set the scheme he wants. 
+  enableThemeToggle = false
 
-[[languages.en.menu.main]]
-name = "Projects"
-weight = 3
-url = "projects/"
+  # Sharing buttons
+  #
+  # There are a lot of buttons preconfigured. If you want to change them,
+  # generate the buttons here: https://sharingbuttons.io
+  # and add them into your own `layouts/partials/sharing-buttons.html`
+  #
+  enableSharingButtons = true
 
-[[languages.en.menu.main]]
-name = "Contact me"
-weight = 5
-url = "contact/"
+  # Global language menu
+  #
+  # Enables the global language menu.
+  #
+  enableGlobalLanguageMenu = true
+
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  #
+  customCSS = []
+  customJS  = []
+
+  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
+  #
+  justifyContent = false  # Set "text-align: justify" to .post-content.
+
+  # Integrate Plausible.io
+  # plausibleDataDomain = 'test.com'
+  # plausibleScriptSource = 'https://plausible.io/js/script.js'
+
+  # Custom footer 
+  # If you want, you can easily override the default footer with your own content. 
+  #
+  [params.footer]
+    trademark = true
+    rss = true
+    copyright = true
+    author = true
+
+    topText = []
+    bottomText = [
+      "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+      "Made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+    ]
+
+  # Colors for favicons
+  #
+  [params.favicon.color]
+    mask = "#1b1c1d"
+    msapplication = "#1b1c1d"
+    theme = "#1b1c1d"
+
+  [params.logo]
+    logoMark     = ">"
+    logoText     = "$ cd /home/"
+    logoHomeLink = "/"
+    # Set true to remove the logo cursor entirely.
+    # logoCursorDisabled = false
+    # Set to a valid CSS color to change the cursor in the logo.
+    # logoCursorColor    = "#67a2c9"
+    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
+    # logoCursorAnimate  = "2s"
+    # Append the current url pathname to logoText 
+    # logoCursorPathname = true
+
+  # Commento is more than just a comments widget you can embed — 
+  # it’s a return to the roots of the internet. 
+  # An internet without the tracking and invasions of privacy. 
+  # An internet that is simple and lightweight. 
+  # An internet that is focused on interesting discussions, not ads. 
+  # A better internet.
+  # Uncomment this to enable Commento.
+  #
+  # [params.commento]
+  #   url = ""
+
+  # Uncomment this if you want a portrait on your start page
+  #
+  # [params.portrait]
+  #   path     = "/img/image.jpg"
+  #   alt      = "Portrait"
+  #   maxWidth = "50px"
+
+  # Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/real_al3x"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:alexandruandrei659@proton.me"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/0ri0nRo"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://linkedin.com/in/alexandru-andrei-colacel"
+
+ 
+[languages]
+  [languages.en]
+    subtitle  = "Hello Friend NG Theme"
+    weight    = 1
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About me"
+    url        = "about/"
+  [[menu.main]]
+    identifier = "skills"
+    name       = "Skills"
+    url        = "/skills"
