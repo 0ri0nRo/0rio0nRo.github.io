@@ -1,34 +1,27 @@
 baseurl = "http://www.example.com"
-title = "johndoe"
+title = "Alexandru's portfolio"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
-
 paginate = 20
-
 disqusShortname = "yourdiscussshortname"
-
 [markup.highlight]
 style = "github-dark"
-
 [params]
-  author = "Colacel Alexandru Andrei"
-  info = "wooooo"
-  description = "John Doe's personal website"
-  keywords = "blog,developer,personal"
-  avatarurl = "images/Globe_High.png"
-  #gravatar = "john.doe@example.com"
 
+  author = "Colacel Alexandru Andrei"
+  info = "wooo"
+  description = "Colacel's personal website"
+  keywords = "blog,developer,personal"
+  avatarurl = "images/avatar.jpg"
+  gravatar = "resources/Globe_High.jpg"
+  
   favicon_32 = "/img/favicon-32x32.png"
   favicon_16 = "/img/favicon-16x16.png"
-
-  since = 2019
-
+  since = 2023
   enableTwemoji = true
-
   colorScheme = "auto"
   hidecolorschemetoggle = false
-
   # customCSS = ["css/custom.css"]
   # customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
@@ -44,17 +37,12 @@ style = "github-dark"
   name = "Github"
   icon = "fa fa-github fa-2x"
   weight = 1
-  url = "https://github.com/johndoe/"
-[[params.social]]
-  name = "Gitlab"
-  icon = "fa fa-gitlab fa-2x"
-  weight = 2
-  url = "https://gitlab.com/johndoe/"
+  url = "https://github.com/0ri0nRo"
 [[params.social]]
   name = "Twitter"
   icon = "fa fa-twitter fa-2x"
   weight = 3
-  url = "https://twitter.com/johndoe/"
+  url = "https://twitter.com/real_al3x"
 
 # Menu links
 [[menu.main]]
