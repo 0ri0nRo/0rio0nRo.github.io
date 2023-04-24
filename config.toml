@@ -3,25 +3,32 @@ title = "Alexandru's portfolio"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
+
 paginate = 20
+
 disqusShortname = "yourdiscussshortname"
+
 [markup.highlight]
 style = "github-dark"
-[params]
 
+[params]
   author = "Colacel Alexandru Andrei"
   info = "wooo"
   description = "Colacel's personal website"
   keywords = "blog,developer,personal"
-  avatarurl = "images/avatar.jpg"
-  gravatar = "resources/Globe_High.jpg"
-  
+  avatarurl = "/Users/alex/Desktop/0rio0nRo.github.io/themes/hugo-coder/images/Globe_High.jpg"
+  gravatar = "alexandruandrei659.aa@gmail.com"
+
   favicon_32 = "/img/favicon-32x32.png"
   favicon_16 = "/img/favicon-16x16.png"
+
   since = 2023
+
   enableTwemoji = true
+
   colorScheme = "auto"
   hidecolorschemetoggle = false
+
   # customCSS = ["css/custom.css"]
   # customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
