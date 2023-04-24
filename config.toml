@@ -1,12 +1,10 @@
-baseURL = "https://0ri0nro.github.io/"
+baseURL = "https://0ri0nro.github.io"
 title   = "Colacel Alexandru Andrei"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
-
-
 
 paginate  = 10
 rssLimit  = 10  # Maximum number of items in the RSS feed.
@@ -26,7 +24,7 @@ buildExpired = false
 canonifyURLs = true
 
 enableRobotsTXT = true
-enableGitInfo   = false
+enableGitInfo   = true
 enableEmoji     = true
 enableMissingTranslationPlaceholders = false
 disableRSS     = false
@@ -40,8 +38,6 @@ disableHugoGeneratorInject = false
 [author]
   name = "Colacel Alexandru Andrei"
 
-[blackfriday]
-  hrefTargetBlank = true
 
 [taxonomies]
   tag      = "tags"
@@ -60,17 +56,15 @@ disableHugoGeneratorInject = false
   keywords = "homepage, 0ri0nro"
   images = [""]
 
-  homeSubtitle = "I would also write the shopping list in Latex"
+  homeSubtitle = "I would also write the shopping list in Latex 💻"
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
 
 
-  enableThemeToggle = false
-
+  enableThemeToggle = true
   enableSharingButtons = true
-
-  enableGlobalLanguageMenu = true
+  enableGlobalLanguageMenu = false
 
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
@@ -82,25 +76,12 @@ disableHugoGeneratorInject = false
   #
   justifyContent = false  # Set "text-align: justify" to .post-content.
 
-  # Integrate Plausible.io
-  # plausibleDataDomain = 'test.com'
-  # plausibleScriptSource = 'https://plausible.io/js/script.js'
-
-  # Custom footer 
-  # If you want, you can easily override the default footer with your own content. 
-  #
   [params.footer]
     trademark = true
-    rss = true
+    rss = false
     copyright = true
-    author = true
+    author = false
 
-    topText = []
-    bottomText = [
-      "Powered by <a href=\"http://gohugo.io\">Hugo</a>"
-    ]
-
-  # Colors for favicons
 
   [params.favicon.color]
     mask = "#1b1c1d"
@@ -137,7 +118,7 @@ disableHugoGeneratorInject = false
  
 [languages]
   [languages.en]
-    title = ""
+    title = "Colacel Alexandru Andrei"
     subtitle = ""
     weight = 1
     keywords = "learning, tech, apps, cs"
