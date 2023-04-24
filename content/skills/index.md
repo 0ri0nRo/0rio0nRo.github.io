@@ -29,6 +29,4 @@ I also started reading some research papers regarding the field of system vulner
     
 ## Hobbies 📖
 
-• [I am obsessed by books](https://www.goodreads.com/user/show/84456037-samuele) \
-• [I enjoy playing videogames](https://steamcommunity.com/id/Novaenn)
 
