@@ -91,7 +91,7 @@ disableHugoGeneratorInject = false
  [params.logo]
     logoText = "cd /home"
     logoHomeLink = "/"
-    logoCursorColor = "#2BC016"  
+    logoCursorColor = "#9EE493"  
     
  [params.portrait]
     path     = "/img/avatar.png"
