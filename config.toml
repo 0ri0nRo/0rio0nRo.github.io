@@ -1,5 +1,5 @@
 baseURL = "https://0ri0nro.github.io/"
-title   = "Colacel Alexandru Andrei"
+title   = "Colacel Alexandru "
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
@@ -37,7 +37,7 @@ disableHugoGeneratorInject = false
   posts = "/posts/:year/:month/:title/"
 
 [author]
-  name = "Colacel Andrei"
+  name = "Colacel Alexandru Andrei"
 
 [blackfriday]
   hrefTargetBlank = true
