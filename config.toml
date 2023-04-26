@@ -10,8 +10,7 @@ paginate  = 10
 rssLimit  = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
-
-
+mobileMode = "auto"
 archetypeDir = "archetypes"
 contentDir   = "content"
 dataDir      = "data"
@@ -31,7 +30,6 @@ disableRSS     = false
 disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
-
 [permalinks]
   posts = "/posts/:year/:month/:title/"
 
@@ -56,7 +54,10 @@ disableHugoGeneratorInject = false
   keywords = "homepage, 0ri0nro"
   images = [""]
 
+
   homeSubtitle = "I would also write the shopping list in Latex 💻"
+  subtitle = "A Clean, Elegant but Advanced Hugo Theme"
+  typeit = true
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
