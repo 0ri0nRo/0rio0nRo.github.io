@@ -2,6 +2,7 @@ baseURL = "https://0ri0nro.github.io"
 title   = "Colacel Alexandru Andrei"
 languageCode = "en-us"
 theme = "hello-friend-ng"
+hasCJKLanguage = false
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
@@ -9,6 +10,7 @@ PygmentsStyle = "monokai"
 paginate  = 10
 rssLimit  = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 mobileMode = "auto"
 archetypeDir = "archetypes"
@@ -36,6 +38,16 @@ disableHugoGeneratorInject = false
 [author]
   name = "Colacel Alexandru Andrei"
 
+[params.home]
+    rss = 10
+    subtitle = "This is My New Hugo Site"
+    typeit = true
+    social = true
+    disclaimer = ""
+    [params.home.posts]
+    enable = true
+    paginate = 6
+    defaultHiddenFromHomePage = false
 
 [taxonomies]
   tag      = "tags"
@@ -53,19 +65,8 @@ disableHugoGeneratorInject = false
   description = "Alexandru's homepage"
   keywords = "homepage, 0ri0nro"
   images = [""]
-
-
   homeSubtitle = "I would also write the shopping list in Latex 💻"
-  subtitle = "A Clean, Elegant but Advanced Hugo Theme"
-  typeit = true
-
-  # Set a background for the homepage
-  # backgroundImage = "assets/images/background.jpg"
-
-
-  enableThemeToggle = true
-  enableSharingButtons = true
-  enableGlobalLanguageMenu = false
+  
 
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
@@ -135,3 +136,4 @@ disableHugoGeneratorInject = false
     identifier = "skills"
     name       = "Skills"
     url        = "/skills"
+
