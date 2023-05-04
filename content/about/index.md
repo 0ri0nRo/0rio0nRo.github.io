@@ -13,4 +13,4 @@ I have a good knowledge of programming techniques and data processing and have a
 
 I am enthusiastic about using my knowledge and skills to contribute to your organization's success and projects.
 
-If you're interested in working with me, [send me an email](mailto:alexandruandrei659@proton.me) or [download my resume](/resume/alexCV.pdf)
+If you're interested in working with me, [send me an email](mailto:alexandruandrei659@proton.me) or [download my resume](/resume/alexCV.pdf) also [available in Italian](/resume/alexCVit.pdf)
