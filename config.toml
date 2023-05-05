@@ -124,7 +124,7 @@ disableHugoGeneratorInject = false
     subtitle = ""
     weight = 1
     keywords = "learning, tech, apps, cs"
-    copyright = "Colacel Alexandru Andrei"
+    copyright = ""
 
 
 [menu]
