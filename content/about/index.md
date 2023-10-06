@@ -5,7 +5,7 @@ date: 2022-07-14T08:26:23+02:00
 
 Hey, welcome to my website 👋
 
-I'm Colacel Alexandru Andrei, a Computer Science student at [Sapienza Università di Roma](https://www.uniroma1.it/it). I am a passionate computer science enthusiast with a strong academic background in Algebra, Algorithms, Architectures, Automata, Computer Networks, Operating Systems, as well as applied mathematics courses such as Differential and Integral Calculus.
+I'm Alexandru Andrei Colacel, a Computer Science student at [Sapienza Università di Roma](https://www.uniroma1.it/it). I am a passionate computer science enthusiast with a strong academic background in Algebra, Algorithms, Architectures, Automata, Computer Networks, Operating Systems, as well as applied mathematics courses such as Differential and Integral Calculus.
 
 I have gained experience in designing and developing computer solutions through group projects and have demonstrated the ability to work in multidisciplinary teams. I am always seeking new challenges and opportunities to grow professionally, and I keep my skills up-to-date by attending conferences and seminars.
 
