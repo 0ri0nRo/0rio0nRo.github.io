@@ -13,7 +13,7 @@ title: "uuu To-Do"
 - **Python**: Programming language used to develop API with FastAPI and Flask framworks.
 - **Java**
 - **C**
-
+- **SQL** with PostgreSQL and MySQL
 
 ### Containerization
 - **Docker**: Open-source platform used for developing, shipping, and running applications in containers. Docker containers allow developers to isolate their applications and their dependencies in lightweight and portable environments, making it easier to deploy and manage applications across different platforms.
