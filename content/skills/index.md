@@ -1,7 +1,6 @@
 ---
-title: "uuu To-Do"
+title: "My Skills"
 ---
-## My Skills
 
 ### Blockchain and Smart Contracts
 - **Solidity**: Programming language for creating smart contracts on Ethereum and other blockchains.
