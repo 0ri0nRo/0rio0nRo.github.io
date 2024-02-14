@@ -51,4 +51,6 @@ The MQTT project for retrieving and managing weather data from the OpenWeatherMa
 ## AI Chess Detector
 - **Project Objective**: Explore the potential of Artificial Intelligence and Computer Vision in solving problems related to understanding and interpreting a chess game.
 - **Chessboard**: Usually consists of a magnetic or touch-sensitive playing surface. When a piece is moved, the sensors record the movement.
-- **Convolutional Neural Network (CNN)**: The CNN is a type of artificial feed-forward neural network in which the connection pattern...
+- **Convolutional Neural Network (CNN)**
+
+Visit my [GitHub page](https://github.com/0ri0nRo) to see more code!
