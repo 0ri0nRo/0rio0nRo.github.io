@@ -8,7 +8,7 @@ In my current role as an IoT Developer, I specialize in leveraging AWS cloud ser
 
 #### Key Responsibilities
 
-- **Design and Development**: Creating scalable and efficient IoT solutions using AWS services.
+- **Development**: Creating scalable and efficient IoT solutions using AWS services.
 - **Integration**: Seamlessly integrating various AWS services to build robust and secure IoT ecosystems.
 - **Maintenance and Optimization**: Ensuring optimal performance of IoT applications and continuously improving existing solutions.
 
