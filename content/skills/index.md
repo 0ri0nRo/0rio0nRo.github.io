@@ -2,6 +2,28 @@
 title: "My Skills"
 ---
 
+### Current Position: IoT Developer
+
+In my current role as an IoT Developer, I specialize in leveraging AWS cloud services to design, develop, and maintain Internet of Things (IoT) solutions. My responsibilities encompass a wide range of tasks and technologies, primarily focused on AWS infrastructure and services. Below are the key areas of my expertise and the tools I employ in my day-to-day operations:
+
+#### Key Responsibilities
+
+- **Design and Development**: Creating scalable and efficient IoT solutions using AWS services.
+- **Integration**: Seamlessly integrating various AWS services to build robust and secure IoT ecosystems.
+- **Maintenance and Optimization**: Ensuring optimal performance of IoT applications and continuously improving existing solutions.
+
+#### Technologies and Tools
+
+- **AWS Cloud**: Utilizing the extensive range of AWS cloud services to build and deploy IoT applications.
+- **AWS Lambda**: Implementing serverless computing to run code in response to triggers and events, ensuring efficient resource utilization.
+- **API Gateway**: Creating and managing APIs to facilitate communication between IoT devices and backend services.
+- **AWS DynamoDB**: Leveraging DynamoDB for scalable and low-latency data storage solutions.
+- **Python**: Using Python as the primary programming language for developing IoT applications, enabling rapid development and deployment.
+
+By harnessing these technologies, I contribute to developing innovative IoT solutions that drive efficiency, enhance connectivity, and provide valuable insights from connected devices. My role requires staying up-to-date with the latest advancements in IoT and AWS technologies to ensure that our solutions remain cutting-edge and competitive in the market.
+
+#
+
 ### Blockchain and Smart Contracts
 - **Solidity**: Programming language for creating smart contracts on Ethereum and other blockchains.
 - **Ethereum Virtual Machine (EVM)**: Execution environment for Ethereum smart contracts.
