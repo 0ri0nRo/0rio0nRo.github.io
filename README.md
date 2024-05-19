@@ -18,6 +18,6 @@ This project is a work in progress, and I appreciate any form of contribution. W
 
 ## Get in Touch
 
-To stay connected with me and follow my tech adventures, you can find me on [Linkedin] www.linkedin.com/in/alexandru-andrei-colacel.
+To stay connected with me and follow my tech adventures, you can find me on [Linkedin] (https://www.linkedin.com/in/alexandru-andrei-colacel).
 
 Thank you for visiting my website and sharing this passion for computers with me. I hope you'll find valuable resources and inspiration for your future projects. Happy browsing!
