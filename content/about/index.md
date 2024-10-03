@@ -7,7 +7,12 @@ Hey, welcome to my website 👋
 
 I'm Alexandru Andrei Colacel, a graduate in Computer Science from Sapienza Università di Roma, currently employed at Lutech since 2023.
 
-Since I was young, I've had a passion for computer science, spending hours in front of the screen in my grandparents' room. This interest led me to attend a technical high school, where I delved into the basics of computer science and got in touch with programming languages like MySQL and C.
+Since I was young, I've had a passion for computer science, spending hours in front of the screen in my grandparents' room. This interest led me to attend a technical high school, where I delved into the basics of computer science and got in touch with programming languages like:
+- MySQL
+- PostgreSQL
+- C
+- Python
+- Java
 
 During my academic journey, I studied a wide range of subjects, from mathematical foundations to automata theory, from software engineering to computer architecture. I always sought to integrate theory with practice, acquiring concrete skills in software development and algorithm implementation.
 
